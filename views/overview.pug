@@ -1,0 +1,46 @@
+extends base
+
+block content
+
+  main.main 
+    .card-container
+
+      each player in players
+        .card
+          .card__header
+            .card__picture
+              .card__picture-overlay &nbsp;
+              img.card__picture-img(src=`*`, alt=`${player.name}`)
+            h3.heading-tertirary
+              span= player.name
+
+          .card__details
+            h4.card__sub-heading= `${player.position} ${player.points}-pts` 
+            p.card__text= player.age
+            .card__data
+              svg.card__icon
+                use(xlink:href='img/icons.svg#icon-map-pin')
+              span=player.age
+            .card__data
+              svg.card__icon
+                use(xlink:href='img/icons.svg#icon-calendar')
+              span= player.age
+            .card__data
+              svg.card__icon
+                use(xlink:href='img/icons.svg#icon-flag')
+              span= `${player.age} stops`
+            .card__data
+              svg.card__icon
+                use(xlink:href='img/icons.svg#icon-user')
+              span= `${player.age} people`
+
+          .card__footer
+            p
+              span.card__footer-value=`$${player.age} `
+              |
+              span.card__footer-text per person
+            p.card__ratings
+              span.card__footer-value=player.age
+          
+              span.card__footer-text= ` rating (${player.age})` 
+            a.btn.btn--green.btn--small(href=`/tour/${player.slug}`) Details

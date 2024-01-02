@@ -1,0 +1,47 @@
+[
+  {
+    "id": "5c8a1d5b0190b214360dc057",
+    "name": "Michael Jordan",
+    "age": "50",
+    "position": "SG",
+    "active": false,
+    "photo": "Michael-pic-1.jpg",
+    "points": "32000"
+  },
+  {
+    "id": "5c8a1d52313113313057",
+    "name": "Michael Jordan",
+    "age": "50",
+    "position": "SG",
+    "active": false,
+    "photo": "Michael-pic-1.jpg",
+    "points": "32000"
+  },
+  {
+    "id": "5c8a1d5b0190b214360dc",
+    "name": "Kobe Bryant",
+    "age": "42",
+    "position": "SG",
+    "active": false,
+    "photo": "Kobe-pic-1.jpg",
+    "points": "33240"
+  },
+  {
+    "id": "5c8a1d5b01914360dc057",
+    "name": "Lebron James",
+    "age": "39",
+    "position": "PF",
+    "active": true,
+    "photo": "Lebron-pic-1.jpg",
+    "points": "40000"
+  },
+  {
+    "id": "5c8a1d5b0190b214360dc057",
+    "name": "Larry Bird",
+    "age": "65",
+    "position": "PF",
+    "active": false,
+    "photo": "Larry-pic-1.jpg",
+    "points": "25403"
+  }
+]
