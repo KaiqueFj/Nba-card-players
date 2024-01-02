@@ -5,16 +5,7 @@
     "age": "50",
     "position": "SG",
     "active": false,
-    "photo": "Michael-pic-1.jpg",
-    "points": "32000"
-  },
-  {
-    "id": "5c8a1d52313113313057",
-    "name": "Michael Jordan",
-    "age": "50",
-    "position": "SG",
-    "active": false,
-    "photo": "Michael-pic-1.jpg",
+    "photo": "jordan-pic.jpg",
     "points": "32000"
   },
   {
@@ -23,7 +14,7 @@
     "age": "42",
     "position": "SG",
     "active": false,
-    "photo": "Kobe-pic-1.jpg",
+    "photo": "Kobe-pic.jpg",
     "points": "33240"
   },
   {
@@ -32,7 +23,7 @@
     "age": "39",
     "position": "PF",
     "active": true,
-    "photo": "Lebron-pic-1.jpg",
+    "photo": "lebron-pic.jpeg",
     "points": "40000"
   },
   {
@@ -41,7 +32,7 @@
     "age": "65",
     "position": "PF",
     "active": false,
-    "photo": "Larry-pic-1.jpg",
+    "photo": "bird-pic.jpg",
     "points": "25403"
   }
 ]

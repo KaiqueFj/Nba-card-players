@@ -16,6 +16,7 @@ const playerSchema = mongoose.Schema({
   },
   slug: String,
   age: Number,
+  photo: String,
   position: String,
   active: Boolean,
   images: [String],
