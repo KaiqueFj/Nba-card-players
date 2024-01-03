@@ -2,37 +2,63 @@
   {
     "id": "5c8a1d5b0190b214360dc057",
     "name": "Michael Jordan",
-    "age": "50",
-    "position": "SG",
+    "age": "60",
+    "position": "Shooting guard",
     "active": false,
     "photo": "jordan-pic.jpg",
-    "points": "32000"
+    "points": "32.292",
+    "assists": "5,633",
+    "rebound": "5,836",
+    "rings": "6",
+    "teams": [
+      "Chicago bulls",
+      "Washinton Wizzards"
+    ]
   },
   {
     "id": "5c8a1d5b0190b214360dc",
     "name": "Kobe Bryant",
-    "age": "42",
-    "position": "SG",
+    "age": "41",
+    "position": "Shooting guard",
     "active": false,
     "photo": "Kobe-pic.jpg",
-    "points": "33240"
+    "points": " 33.643",
+    "assists": "6,306",
+    "rebound": "7,047",
+    "rings": "5",
+    "teams": [
+      "Lakers"
+    ]
   },
   {
     "id": "5c8a1d5b01914360dc057",
     "name": "Lebron James",
     "age": "39",
-    "position": "PF",
+    "position": "Small Forward",
     "active": true,
     "photo": "lebron-pic.jpeg",
-    "points": "40000"
+    "points": "39.000",
+    "assists": "10,639",
+    "rebound": "10,896",
+    "rings": "4",
+    "teams": [
+      "Cleveland Cavaliers",
+      "Miami Heat, Los Angeles Lakers"
+    ]
   },
   {
     "id": "5c8a1d5b0190b214360dc057",
     "name": "Larry Bird",
-    "age": "65",
-    "position": "PF",
+    "age": "67 ",
+    "position": "Power Forward",
     "active": false,
     "photo": "bird-pic.jpg",
-    "points": "25403"
+    "points": "21.791",
+    "assists": "5,695",
+    "rebound": " 8,974",
+    "rings": "3",
+    "teams": [
+      "Boston Celtics"
+    ]
   }
 ]

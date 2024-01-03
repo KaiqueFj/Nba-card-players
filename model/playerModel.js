@@ -21,6 +21,10 @@ const playerSchema = mongoose.Schema({
   active: Boolean,
   images: [String],
   points: Number,
+  assists: String,
+  rebound: String,
+  rings: String,
+  teams: [String],
 });
 
 const Player = mongoose.model("Player", playerSchema);

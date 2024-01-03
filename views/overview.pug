@@ -15,32 +15,25 @@ block content
               span= player.name
 
           .card__details
-            h4.card__sub-heading= `${player.position} ${player.points}-pts` 
-            p.card__text= player.age
+            h4.card__sub-heading= `${player.position}` 
+            p.card__text= `${player.age} years old`
             .card__data
               svg.card__icon
                 use(xlink:href='img/icons.svg#icon-map-pin')
-              span=player.age
+              span= `${player.points} points`
             .card__data
               svg.card__icon
                 use(xlink:href='img/icons.svg#icon-calendar')
-              span= player.age
+              span= `${player.assists} assists`
             .card__data
               svg.card__icon
                 use(xlink:href='img/icons.svg#icon-flag')
-              span= `${player.age} stops`
+              span= `${player.rebound} rebounds`
             .card__data
               svg.card__icon
                 use(xlink:href='img/icons.svg#icon-user')
-              span= `${player.age} people`
+              span= `${player.rings} rings`
 
           .card__footer
-            p
-              span.card__footer-value=`$${player.age} `
-              |
-              span.card__footer-text per person
-            p.card__ratings
-              span.card__footer-value=player.age
-          
-              span.card__footer-text= ` rating (${player.age})` 
+         
             a.btn.btn--green.btn--small(href=`/player/${player.id}`) Details
