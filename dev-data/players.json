@@ -60,5 +60,35 @@
     "teams": [
       "Boston Celtics"
     ]
+  },
+  {
+    "id": "5c8a1d5b0190b214360dc052",
+    "name": "James Harden",
+    "age": "30",
+    "position": "Shooting Guard",
+    "active": true,
+    "photo": "harden-pic.jpg",
+    "points": "25.136",
+    "assists": "6,695",
+    "rebound": " 4,974",
+    "rings": "0",
+    "teams": [
+      "Houston Rockets, Brokllin Nets, Philadelphia 76ers"
+    ]
+  },
+  {
+    "id": "5c8a1d5b0190b214360dc057",
+    "name": "Kevin Durant",
+    "age": "34",
+    "position": "Small Forward",
+    "active": true,
+    "photo": "durant-pic.jpg",
+    "points": "28.791",
+    "assists": "5,695",
+    "rebound": " 3,974",
+    "rings": "3",
+    "teams": [
+      "Oklahoma city thunder, Golden State Warriors, Brokllin Nets, Phoenix Suns"
+    ]
   }
 ]
