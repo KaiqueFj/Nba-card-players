@@ -26,6 +26,7 @@ const playerSchema = mongoose.Schema({
   rebound: String,
   rings: String,
   teams: [String],
+  description: String,
 });
 
 playerSchema.pre("save", function (next) {

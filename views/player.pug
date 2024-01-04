@@ -1,6 +1,8 @@
 extends base 
 
 block append head
+  link(rel="stylesheet" href='/css/playerPage.styles.css')
+
 
 mixin overviewBox(label, text,icon)
   .overview-box__detail
@@ -40,3 +42,12 @@ block content
           +overviewBox('Played for', player.teams, 'trending-up')
           +overviewBox('Rings',`${player.rings}`, 'user')
           +overviewBox('Points', `${player.points}`, 'star')
+
+    .description-box
+      h2.heading-secondary.ma-bt-lg= `About the ${player.name} carrer`
+      - const paragraphs = player.name.split('\n')
+      each p in paragraphs 
+        p.description__text= p
+
+
+  
