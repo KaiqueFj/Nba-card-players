@@ -36,8 +36,8 @@
     linear,
     left top,
     right bottom,
-    from(#7dd56f),
-    to(#28b487)
+    from(rgba(0, 29, 245, 0.952)),
+    to(rgb(170, 160, 160))
   );
   background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
   opacity: 0.85;
@@ -116,7 +116,7 @@
   margin-bottom: 2rem;
 }
 
-.overvi .overview-box {
+.overview .overview-box {
   background-color: #f7f7f7;
   display: -webkit-box;
   display: -ms-flexbox;

@@ -96,10 +96,10 @@ body {
     linear,
     left top,
     right top,
-    from(#7dd56f),
-    to(#28b487)
+    from(rgba(0, 29, 245, 0.952)),
+    to(rgb(170, 160, 160))
   );
-  background-image: linear-gradient(to right, #7dd56f, #28b487);
+  background-image: linear-gradient(to right, #0a24e7, #3045e6da);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.1rem;

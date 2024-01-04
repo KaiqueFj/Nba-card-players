@@ -45,7 +45,7 @@ block content
 
     .description-box
       h2.heading-secondary.ma-bt-lg= `About the ${player.name} carrer`
-      - const paragraphs = player.name.split('\n')
+      - const paragraphs = player.description.split('\n')
       each p in paragraphs 
         p.description__text= p
 
