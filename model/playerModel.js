@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const validator = require("validator");
+const slugify = require("slugify");
 
 const playerSchema = mongoose.Schema({
   name: {
@@ -25,6 +26,11 @@ const playerSchema = mongoose.Schema({
   rebound: String,
   rings: String,
   teams: [String],
+});
+
+playerSchema.pre("save", function (next) {
+  this.slug = slugify(this.name, { lower: true });
+  next();
 });
 
 const Player = mongoose.model("Player", playerSchema);
