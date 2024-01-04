@@ -1,0 +1,27 @@
+{
+  "name": "nba-cards",
+  "version": "1.0.0",
+  "description": "Creating something amazing with nodeJS and mongoDB",
+  "main": "app.js",
+  "engines": {
+    "node": "20.10.0"
+  },
+  "author": "Kaique Ferraz de Jesus",
+  "license": "ISC",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "importData": "node dev-data/import-dev-data.js --import",
+    "deleteData": "node dev-data/import-dev-data.js --delete"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "slug": "^8.2.3",
+    "slugify": "^1.6.6",
+    "validator": "^13.11.0"
+  }
+}
